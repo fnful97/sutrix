@@ -31,5 +31,8 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
 ```sh
 sutrix
 ```
+
+thanks sunia for the code <3
+
 ## License
 gplv2
