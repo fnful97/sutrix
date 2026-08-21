@@ -26,6 +26,12 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
 . ~/.profile
 ```
 
+## Fonts if for some reason you dont have it installed 
+```sh
+Sarasa Term J
+```
+
+
 ## Error if path fails to 
 ```sh
 
