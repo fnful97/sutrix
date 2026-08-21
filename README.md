@@ -26,6 +26,16 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
 . ~/.profile
 ```
 
+## Error if path fails to 
+```sh
+
+mkdir -p ~/.local/bin
+gcc -O2 -o ~/.local/bin/sutrix sutrix.c -lncursesw
+chmod +x ~/.local/bin/sutrix
+
+```
+
+
 ## Run
 
 ```sh
