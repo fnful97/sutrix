@@ -8,8 +8,8 @@ Falling columns of katakana (75%), symbols (15%), and numbers (10%), fading out 
 Requires `gcc` and `ncursesw` (wide-character ncurses).
 
 ```sh
-sudo apt install libncursesw5-dev   # Debian based 
- or: sudo pacman -S ncurses        # Arch based
+sudo apt install libncursesw5-dev   # Debian based
+sudo pacman -S ncurses        # Arch based
 ```
 
 Then build and install to `~/.local/bin` (no doas or sudo perms required)
