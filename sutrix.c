@@ -1,16 +1,3 @@
-/*
- * lain.c - digital rain / katakana screensaver
- * C port of lain.py, using ncurses.
- *
- * Build:  gcc -O2 -o lain lain.c -lncursesw
- * Run:    ./lain
- *
- * Controls:
- *   1/2/3 - color mode (white / white+red mix / red)
- *   4/5   - speed up / slow down
- *   q     - quit (asks Y/N confirmation)
- */
-
 #define _XOPEN_SOURCE_EXTENDED 1
 #include <curses.h>
 #include <locale.h>
