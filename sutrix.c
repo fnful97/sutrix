@@ -184,4 +184,4 @@ int main(void) {
     endwin();
     return 0;
 }
-/* lets all love lain & sunia */
+// i am a furry 
