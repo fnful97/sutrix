@@ -104,7 +104,7 @@ int main(void) {
         if (ch != ERR) {
             if (ch == 'q' || ch == 'Q') {
                 nodelay(win, FALSE);
-                const char *msg = "Y/N to leav: ";
+                const char *msg = "Y/N to leave: ";
                 int mlen = (int)strlen(msg);
                 mvaddstr(max_y / 2, (max_x - mlen) / 2, msg);
                 attron(COLOR_PAIR(1) | A_REVERSE);
