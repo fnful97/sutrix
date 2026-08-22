@@ -1,11 +1,7 @@
 ## Build
 
-Requires `gcc` and `ncursesw` (wide-character ncurses).
+Requires `gcc` and `ncursesw` > wide-character ncurses
 
-```
-sudo apt install libncursesw5-dev   # Debian based
-sudo pacman -S ncurses        # Arch based
-```
 
 Then build and install to `~/.local/bin` (no doas or sudo perms required)
 
